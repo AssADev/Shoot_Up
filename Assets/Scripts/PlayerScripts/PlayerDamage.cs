@@ -15,7 +15,8 @@ public class PlayerDamage : MonoBehaviour {
 
     // Song :
     private AudioSource audioSource;
-    public AudioClip dieSong, hitSong;
+    public AudioSource audioSourceCamera;
+    public AudioClip dieSong, hitSong, healthPotionSong, dieMusicBackground;
 
     // Die Menu :
     public GameObject dieMenuUI;
@@ -42,6 +43,9 @@ public class PlayerDamage : MonoBehaviour {
         if ((other.gameObject.tag == "HealthPotion") && (currenthHealth < maxHealth)) {
             Destroy(other.gameObject);
             currenthHealth++;
+
+            audioSource.clip = healthPotionSong;
+            audioSource.Play();
         } else if (other.gameObject.tag == "Enemy") {
             if (readyToBeHit) {
                 currenthHealth--;
@@ -52,6 +56,9 @@ public class PlayerDamage : MonoBehaviour {
 
                     audioSource.clip = dieSong;
                     audioSource.Play();
+
+                    audioSourceCamera.clip = dieMusicBackground;
+                    audioSourceCamera.Play();
 
                     _animator.SetTrigger("PlayerDead");
                     StartCoroutine(DieInterface());
@@ -66,7 +73,7 @@ public class PlayerDamage : MonoBehaviour {
                 if (currenthHealth > 0) {
                     audioSource.clip = hitSong;
                     audioSource.Play();
-                    
+
                     _animator.SetTrigger("PlayerHit");
                     StartCoroutine(UpdateReadyToBeHit());
 

@@ -225,7 +225,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2130479409618512350, guid: d4a9a0a77f987f24488a3a7b1ef24966, type: 3}
   playerForJump: {fileID: 962243242164129994}
   bulletsAmountIndicator: {fileID: 0}
-  shootBulletSong: {fileID: 0}
+  shootBulletSong: {fileID: 8300000, guid: 7f1f764ecbca8bd47a403d2d4e1f2aba, type: 3}
   bulletForce: 15
   bulletNumber: 8
   readyToShoot: 1
@@ -247,7 +247,11 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   healthIndicator: {fileID: 0}
   readyToBeHit: 1
+  audioSourceCamera: {fileID: 0}
   dieSong: {fileID: 8300000, guid: 4bc9801bf8206914083bf3cd6f090a61, type: 3}
+  hitSong: {fileID: 8300000, guid: 8fc72ae064a1816498709f74ed05e9b6, type: 3}
+  healthPotionSong: {fileID: 8300000, guid: ae450d9c779b00b4486f0c49dea0dc7a, type: 3}
+  dieMusicBackground: {fileID: 0}
   dieMenuUI: {fileID: 0}
   player: {fileID: 962243242164129994}
 --- !u!114 &5530983174988292824
