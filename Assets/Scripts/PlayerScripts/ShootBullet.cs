@@ -10,12 +10,18 @@ public class ShootBullet : MonoBehaviour {
     public GameObject playerForJump;
     public TextMeshProUGUI bulletsAmountIndicator;
 
+    // Song :
+    private AudioSource audioSource;
+    public AudioClip shootBulletSong;
+
     public float bulletForce = 20f;
     public int bulletNumber = 8;
     public bool readyToShoot = true;
     public GameObject[] bulletsArray;
 
     void Start() {
+        audioSource = GetComponent<AudioSource>();
+        
         for (int i = 0; i < bulletNumber; i++) {
             bulletsArray[i].gameObject.SetActive(true);
         }
@@ -36,6 +42,8 @@ public class ShootBullet : MonoBehaviour {
 
     // Shoot Function :
     IEnumerator Shoot() {
+        audioSource.clip = shootBulletSong;
+        audioSource.Play();
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D _rigidbody = bullet.GetComponent<Rigidbody2D>();
         _rigidbody.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);

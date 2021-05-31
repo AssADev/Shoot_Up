@@ -13,6 +13,11 @@ public class PlayerDamage : MonoBehaviour {
     public TextMeshProUGUI healthIndicator;
     public bool readyToBeHit = true;
 
+    // Song :
+    private AudioSource audioSource;
+    public AudioClip dieSong, hitSong;
+
+    // Die Menu :
     public GameObject dieMenuUI;
     public GameObject player;
 
@@ -20,6 +25,8 @@ public class PlayerDamage : MonoBehaviour {
 
     void Start() {
         _animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+
         currenthHealth = maxHealth;
         UpdateHealth();
         dieMenuUI.SetActive(false);
@@ -42,6 +49,10 @@ public class PlayerDamage : MonoBehaviour {
                 if (currenthHealth <= 0) {
                     readyToBeHit = false;
                     PauseMenu.GameCanBePaused = false;
+
+                    audioSource.clip = dieSong;
+                    audioSource.Play();
+
                     _animator.SetTrigger("PlayerDead");
                     StartCoroutine(DieInterface());
 
@@ -53,8 +64,12 @@ public class PlayerDamage : MonoBehaviour {
 
                 // TakeDamage :
                 if (currenthHealth > 0) {
+                    audioSource.clip = hitSong;
+                    audioSource.Play();
+                    
                     _animator.SetTrigger("PlayerHit");
                     StartCoroutine(UpdateReadyToBeHit());
+
                 } 
             }
         }
