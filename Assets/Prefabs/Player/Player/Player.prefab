@@ -251,9 +251,11 @@ MonoBehaviour:
   dieSong: {fileID: 8300000, guid: 4bc9801bf8206914083bf3cd6f090a61, type: 3}
   hitSong: {fileID: 8300000, guid: 8fc72ae064a1816498709f74ed05e9b6, type: 3}
   healthPotionSong: {fileID: 8300000, guid: ae450d9c779b00b4486f0c49dea0dc7a, type: 3}
-  dieMusicBackground: {fileID: 0}
+  dieMusicBackground: {fileID: 8300000, guid: c3e0be516fcfa4d4f91a985efe237373, type: 3}
   dieMenuUI: {fileID: 0}
   player: {fileID: 962243242164129994}
+  gemsCounter: {fileID: 0}
+  gemsScore: {fileID: 0}
 --- !u!114 &5530983174988292824
 MonoBehaviour:
   m_ObjectHideFlags: 0

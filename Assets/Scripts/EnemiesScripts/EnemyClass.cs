@@ -7,6 +7,10 @@ public class EnemyClass : MonoBehaviour {
     public GameObject gemDropObject, healthPotionObject;
     public int enemyHealth, enemyDamage, randomMaxGems;
     
+    // Song :
+    private AudioSource enemyAudioSource;
+    public AudioClip enemyHitSong, enemyDieSong;
+
     private GameObject player;
     private Animator enemyAnimator;
     private Collider2D enemyCollision;
@@ -15,6 +19,7 @@ public class EnemyClass : MonoBehaviour {
     void Start() {
         enemyAnimator = GetComponent<Animator>();
         enemyCollision = GetComponent<Collider2D>();
+        enemyAudioSource = GetComponent<AudioSource>();
         player = GameObject.FindWithTag("Player");
         bulletsAmountIndicator = GameObject.FindWithTag("Player").GetComponent<ShootBullet>();
     }
@@ -46,6 +51,9 @@ public class EnemyClass : MonoBehaviour {
     }
 
     void EnemyTakeDamage () {
+        enemyAudioSource.clip = enemyHitSong;
+        enemyAudioSource.Play(); 
+
         enemyHealth--;
         if (enemyHealth <= 0) {
             EnemyDie();
@@ -56,6 +64,9 @@ public class EnemyClass : MonoBehaviour {
     }
 
     void EnemyDie() {
+        enemyAudioSource.clip = enemyDieSong;
+        enemyAudioSource.Play(); 
+
         enemyCollision.enabled = false;
         enemyAnimator.SetTrigger("isDead");
         CameraShakeController.instance.StartShake(0.2f, 0.2f);
