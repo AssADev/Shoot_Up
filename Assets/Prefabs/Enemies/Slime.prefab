@@ -227,7 +227,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gemDropObject: {fileID: 7888227671451432952, guid: b644aa05e6836474ca9a32ac95e1eb09, type: 3}
   healthPotionObject: {fileID: 2875794614813737516, guid: 9cfdf2af46c0e6a4faed8f3e6211df76, type: 3}
-  bulletsAmountIndicator: {fileID: 0}
   enemyHealth: 4
   enemyDamage: 1
   randomMaxGems: 5
@@ -248,7 +247,7 @@ MonoBehaviour:
   enemyMoveSpeed: 200
   nextWaypointDistance: 3
   jumpNodeHeightRequirement: 0.8
-  enemyJumpModifier: 3.5
+  enemyJumpModifier: 4.5
   jumpCheckOffset: 0.1
   followEnabled: 1
   jumpEnabled: 1

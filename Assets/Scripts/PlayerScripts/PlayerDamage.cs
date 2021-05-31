@@ -21,6 +21,8 @@ public class PlayerDamage : MonoBehaviour {
     // Die Menu :
     public GameObject dieMenuUI;
     public GameObject player;
+    public GemsCounter gemsCounter;
+    public TextMeshProUGUI gemsScore;
 
     private Animator _animator;
 
@@ -91,6 +93,7 @@ public class PlayerDamage : MonoBehaviour {
 
     IEnumerator DieInterface() {
         yield return new WaitForSeconds(1f);
+        gemsScore.SetText("SCORE : {0}", gemsCounter.gemsCounterScore);
         dieMenuUI.SetActive(true);
 
         // Désactiver le Player :
