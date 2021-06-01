@@ -7,3 +7,6 @@ This game is a Roguelike and also a Shooter, where the player shoots by his feet
 -   Up Arrow : Jump & Shoot
 -   Left / Right Arrow : Move
 -   Down Arrow : Cross the platforms
+
+## Pictures
+![Main Menu](https://imgur.com/LxaLgub "Main menu")
