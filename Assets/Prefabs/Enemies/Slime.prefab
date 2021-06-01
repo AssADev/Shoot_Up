@@ -250,7 +250,7 @@ MonoBehaviour:
   enemyMoveSpeed: 200
   nextWaypointDistance: 3
   jumpNodeHeightRequirement: 0.8
-  enemyJumpModifier: 4.5
+  enemyJumpModifier: 5
   jumpCheckOffset: 0.1
   followEnabled: 1
   jumpEnabled: 1
