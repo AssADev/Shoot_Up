@@ -20,10 +20,12 @@ public class LevelGenerator : MonoBehaviour {
         lastRandomLevel = 0;
 
         // SpawnLevelPart on start gameplay :
-        // int startingLevelPartsSpawn = 5;
-        // for (int i = 0; i < startingLevelPartsSpawn; i++) {
-        //     SpawnLevelPart();
-        // }
+        /* 
+        int startingLevelPartsSpawn = 5;
+        for (int i = 0; i < startingLevelPartsSpawn; i++) {
+            SpawnLevelPart();
+        }
+        */
     }
 
     void Update() {
