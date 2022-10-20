@@ -9,11 +9,16 @@ public class PauseMenu : MonoBehaviour {
     public GameObject pauseMenuUI;
     public LevelLoader levelLoader;
 
-    void Update() {
-        if (Input.GetKeyDown(KeyCode.Escape) && GameCanBePaused) {
-            if (GameIsPaused) {
+    public void PausePressed()
+    {
+        if (GameCanBePaused)
+        {
+            if (GameIsPaused)
+            {
                 Resume();
-            } else {
+            }
+            else
+            {
                 Pause();
             }
         }

@@ -390,7 +390,7 @@ TextureImporter:
       213: -6732543449827087370
     second: LiDungeonTiles_128
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -411,6 +411,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -449,6 +450,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -500,6 +502,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3232,6 +3246,136 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      LiDungeonTiles_80: -645978029890121982
+      LiDungeonTiles_43: 3377725762317612518
+      LiDungeonTiles_108: -5032384381429638001
+      LiDungeonTiles_87: 1975715364672260643
+      LiDungeonTiles_88: -8896583380272539921
+      LiDungeonTiles_70: 2769955613380280960
+      LiDungeonTiles_37: -766585580191570570
+      LiDungeonTiles_116: -243430950421176160
+      LiDungeonTiles_85: -6198376918313390164
+      LiDungeonTiles_109: 5245482194925421082
+      LiDungeonTiles_84: 4392704468009146204
+      LiDungeonTiles_102: -8978304296194591227
+      LiDungeonTiles_99: 7206487318054756617
+      LiDungeonTiles_4: -7016318187424260554
+      LiDungeonTiles_7: 9214790167708372946
+      LiDungeonTiles_41: -5102544622252220731
+      LiDungeonTiles_113: -5803191432428305522
+      LiDungeonTiles_25: 2364129688090691270
+      LiDungeonTiles_62: 8951445235448885098
+      LiDungeonTiles_35: 9050265148664168494
+      LiDungeonTiles_68: -8916007846409908089
+      LiDungeonTiles_75: -2990448261182996487
+      LiDungeonTiles_18: -7025516372498020862
+      LiDungeonTiles_3: -3068173528089236466
+      LiDungeonTiles_125: 5495974389531665117
+      LiDungeonTiles_94: -276941283310950491
+      LiDungeonTiles_23: 4202913269427082774
+      LiDungeonTiles_65: -3658522734257512994
+      LiDungeonTiles_53: 209175206392384612
+      LiDungeonTiles_71: -2720747434599518487
+      LiDungeonTiles_77: 1362121611159106290
+      LiDungeonTiles_78: 8773941674864369213
+      LiDungeonTiles_5: -3479876370555810023
+      LiDungeonTiles_17: 3600809641699004453
+      LiDungeonTiles_21: -8707288523876544599
+      LiDungeonTiles_34: -8109409809578108260
+      LiDungeonTiles_91: 2821382092841516184
+      LiDungeonTiles_22: 3458805252678605930
+      LiDungeonTiles_83: 1624151835337122702
+      LiDungeonTiles_56: 5265057960535583156
+      LiDungeonTiles_127: -5384222563214536633
+      LiDungeonTiles_63: 3980222386522572628
+      LiDungeonTiles_45: 5420079779575399932
+      LiDungeonTiles_10: 5377709198195863717
+      LiDungeonTiles_110: -2659863928158554054
+      LiDungeonTiles_14: 5272937039115874824
+      LiDungeonTiles_72: 2518227934785423250
+      LiDungeonTiles_86: 4826304321448444712
+      LiDungeonTiles_98: -3291375124003165704
+      LiDungeonTiles_12: -5922378752655884350
+      LiDungeonTiles_32: -8994557900219218628
+      LiDungeonTiles_105: -5532743996407633523
+      LiDungeonTiles_69: 3589078650643076769
+      LiDungeonTiles_97: 2763381099273399682
+      LiDungeonTiles_50: 6427526861392098803
+      LiDungeonTiles_114: -6536392516376179679
+      LiDungeonTiles_54: -9144229762076162293
+      LiDungeonTiles_20: 4901670759802141750
+      LiDungeonTiles_106: 8614149979162160243
+      LiDungeonTiles_33: -8089547068573389948
+      LiDungeonTiles_93: 4476005446017960796
+      LiDungeonTiles_40: -495469954371792759
+      LiDungeonTiles_0: -8690087137312000337
+      LiDungeonTiles_60: 7108240512374653668
+      LiDungeonTiles_31: 4680705680787031126
+      LiDungeonTiles_126: 2226673055931539327
+      LiDungeonTiles_122: -2307073074849177930
+      LiDungeonTiles_92: 3789155227357870164
+      LiDungeonTiles_13: -2524475889153449494
+      LiDungeonTiles_100: 8981661016053233042
+      LiDungeonTiles_47: 8328950908673174466
+      LiDungeonTiles_11: 1139682256408765090
+      LiDungeonTiles_16: 2589679764049820410
+      LiDungeonTiles_55: -4045202827879537361
+      LiDungeonTiles_64: -2694365870045650524
+      LiDungeonTiles_96: 7582859233966427820
+      LiDungeonTiles_61: -2734016074106835099
+      LiDungeonTiles_103: -7773623346707713332
+      LiDungeonTiles_107: 5127145061576863411
+      LiDungeonTiles_39: 4971563995448503918
+      LiDungeonTiles_67: 6998774212948759218
+      LiDungeonTiles_73: -8833133212825757184
+      LiDungeonTiles_27: 4631940324494254754
+      LiDungeonTiles_30: -8676773430484731834
+      LiDungeonTiles_9: -7010300914284624770
+      LiDungeonTiles_15: 7157635547071484043
+      LiDungeonTiles_112: 1963652592083256306
+      LiDungeonTiles_66: 3820279187927499982
+      LiDungeonTiles_90: -2751433811634641810
+      LiDungeonTiles_89: 6078150360141810025
+      LiDungeonTiles_120: 3518049752153815747
+      LiDungeonTiles_26: 6758922698166187358
+      LiDungeonTiles_52: -8314831730558193625
+      LiDungeonTiles_57: 36171133705938740
+      LiDungeonTiles_19: 8509502935543723029
+      LiDungeonTiles_58: 2344545183859281428
+      LiDungeonTiles_29: 7523682800442094496
+      LiDungeonTiles_115: -4028145257190604369
+      LiDungeonTiles_24: 7943593635601898199
+      LiDungeonTiles_2: -3721109711095640797
+      LiDungeonTiles_121: 5254768970871945519
+      LiDungeonTiles_128: -6732543449827087370
+      LiDungeonTiles_95: 6266629976755943170
+      LiDungeonTiles_42: -6686919766870607223
+      LiDungeonTiles_104: -309398043984290709
+      LiDungeonTiles_28: -6762487760090375256
+      LiDungeonTiles_74: 4988136168716218740
+      LiDungeonTiles_123: 3362576187498296428
+      LiDungeonTiles_59: 3419706724641890142
+      LiDungeonTiles_81: 4726527079098868463
+      LiDungeonTiles_6: 8571434617298210837
+      LiDungeonTiles_48: 8417436792229948799
+      LiDungeonTiles_76: -4278531208049389117
+      LiDungeonTiles_79: -647869194808040817
+      LiDungeonTiles_118: -677834779079077327
+      LiDungeonTiles_44: -5756165281457909849
+      LiDungeonTiles_8: -978436246577022122
+      LiDungeonTiles_119: -3963993731930098260
+      LiDungeonTiles_111: -2530380702904806804
+      LiDungeonTiles_1: 5820179650131419043
+      LiDungeonTiles_36: -2652461138307314605
+      LiDungeonTiles_124: -3561601516078711166
+      LiDungeonTiles_46: -1954387134012651073
+      LiDungeonTiles_82: 3289037608170242428
+      LiDungeonTiles_51: -3448251851506904836
+      LiDungeonTiles_38: -1614539329511552433
+      LiDungeonTiles_49: 3384954477952915112
+      LiDungeonTiles_101: -7314301231373963254
+      LiDungeonTiles_117: -1009646898970686263
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

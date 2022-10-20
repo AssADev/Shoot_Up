@@ -27,8 +27,10 @@ public class ShootBullet : MonoBehaviour {
         }
     }
 
-    void Update() {
-        if ((Input.GetKey(KeyCode.UpArrow)) && (bulletNumber > 0) && readyToShoot) {
+    public void OnJump()
+    {
+        if (bulletNumber > 0 && readyToShoot)
+        {
             bulletNumber--;
             // Add a jump :
             Rigidbody2D playerRigidbody2D = playerForJump.GetComponent<Rigidbody2D>();
