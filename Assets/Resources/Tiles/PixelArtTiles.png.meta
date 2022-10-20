@@ -216,7 +216,7 @@ TextureImporter:
       213: -2710411273664578050
     second: PixelArtTiles_72
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -237,6 +237,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -275,6 +276,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -326,6 +328,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1840,6 +1854,78 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PixelArtTiles_37: -5745193747454118563
+      PixelArtTiles_34: -7554235341841656939
+      PixelArtTiles_66: 7534211013533094405
+      PixelArtTiles_4: -2046642174997305357
+      PixelArtTiles_12: 3616725757512309024
+      PixelArtTiles_47: 5880060499433870662
+      PixelArtTiles_10: -1351826236573557682
+      PixelArtTiles_8: -1463949520652194575
+      PixelArtTiles_9: -968103201514109697
+      PixelArtTiles_23: 5105360168843381564
+      PixelArtTiles_44: -7833409496352858703
+      PixelArtTiles_69: 3477884553075909817
+      PixelArtTiles_57: -1976069322300308003
+      PixelArtTiles_28: -7608890350047363224
+      PixelArtTiles_43: 4496657331772827484
+      PixelArtTiles_42: 6501694042324087921
+      PixelArtTiles_13: -960067990377853243
+      PixelArtTiles_58: 1113414968850933583
+      PixelArtTiles_59: 5333121098258662738
+      PixelArtTiles_31: 4798488400711137385
+      PixelArtTiles_29: 1571556095606727203
+      PixelArtTiles_35: 6798186330299961797
+      PixelArtTiles_24: -8206913399040374862
+      PixelArtTiles_33: -147500598302201450
+      PixelArtTiles_45: -6042613115095036344
+      PixelArtTiles_62: 2040825333025497697
+      PixelArtTiles_64: -5281909513973034542
+      PixelArtTiles_14: -5104150381173617249
+      PixelArtTiles_7: -9091817567598382430
+      PixelArtTiles_65: -8597553853242558456
+      PixelArtTiles_53: 5001973685914731602
+      PixelArtTiles_67: -497583305829271980
+      PixelArtTiles_16: -4045731621109892220
+      PixelArtTiles_22: -692512503099756778
+      PixelArtTiles_3: 7901159935305787159
+      PixelArtTiles_18: -7840453104127353920
+      PixelArtTiles_41: 2871630270088174651
+      PixelArtTiles_46: 2361792689599301998
+      PixelArtTiles_61: -5666066718893537036
+      PixelArtTiles_30: -4159272536854680917
+      PixelArtTiles_72: -2710411273664578050
+      PixelArtTiles_17: -7558945119732365722
+      PixelArtTiles_50: -2294552869174927089
+      PixelArtTiles_2: -1893587902058050459
+      PixelArtTiles_27: -2352158676238138713
+      PixelArtTiles_63: -7548404520229114483
+      PixelArtTiles_49: -7608922291942253074
+      PixelArtTiles_11: -7200597951441883758
+      PixelArtTiles_21: -4685929560711637336
+      PixelArtTiles_55: -2426346010718413177
+      PixelArtTiles_25: -1633864471196714109
+      PixelArtTiles_32: 8823324071683742171
+      PixelArtTiles_52: 1427923722223163741
+      PixelArtTiles_38: -1850867138903553194
+      PixelArtTiles_68: -207507150708208046
+      PixelArtTiles_15: -8773686832997673508
+      PixelArtTiles_60: -1451845829652430264
+      PixelArtTiles_36: 4691727343794858142
+      PixelArtTiles_71: 7457231220300560964
+      PixelArtTiles_26: 2146882330987720256
+      PixelArtTiles_20: 6456966915972034121
+      PixelArtTiles_48: -5923598365961516840
+      PixelArtTiles_19: -1045305240090364208
+      PixelArtTiles_56: 6990135445506548221
+      PixelArtTiles_54: -5923928618292493201
+      PixelArtTiles_70: -4715408159021119276
+      PixelArtTiles_5: -1939055274927930882
+      PixelArtTiles_51: 4850237359610511311
+      PixelArtTiles_40: 7082365681512121177
+      PixelArtTiles_39: -4295465688740677311
+      PixelArtTiles_6: -8640843572132322650
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

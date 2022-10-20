@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
+
     // Variables :
     public float speedMovement;
     public float jumpForce;
@@ -35,9 +37,53 @@ public class PlayerController : MonoBehaviour {
         _animator = GetComponent<Animator>();
     }
 
-    void FixedUpdate() {
-        moveInput = Input.GetAxisRaw("Horizontal");
-        _rigidbody.velocity = new Vector2(moveInput * speedMovement, _rigidbody.velocity.y);
+    public void MoveReleased()
+    {
+        _rigidbody.velocity = new Vector2(0, _rigidbody.velocity.y);
+    }
+
+    public void Move(float value)
+    {
+        // FlipX :
+        if (value < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        } else
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+
+        // Move
+        _rigidbody.velocity = new Vector2(value * speedMovement, _rigidbody.velocity.y);
+    }
+
+    public void Jump()
+    {
+        if (isGrounded)
+        {
+            DustJump();
+            isJumping = true;
+            jumpTimeCounter = jumpTime;
+            _rigidbody.velocity = Vector2.up * jumpForce;
+        } else if (isJumping == true)
+        {
+            _animator.SetBool("IsJumping", true);
+
+            if (jumpTimeCounter > 0)
+            {
+                _rigidbody.velocity = Vector2.up * jumpForce;
+                jumpTimeCounter -= Time.deltaTime;
+            }
+            else
+            {
+                isJumping = false;
+            }
+        }
+    }
+
+    public void JumpReleased()
+    {
+        isJumping = false;
     }
 
     void Update() {
@@ -68,17 +114,6 @@ public class PlayerController : MonoBehaviour {
             } else {
                 isJumping = false;
             }
-        }
-
-        if (Input.GetKeyUp(KeyCode.UpArrow)) {
-            isJumping = false;
-        }
-
-        // FlipX :
-        if (moveInput > 0) {
-            transform.eulerAngles = new Vector3(0, 0, 0);
-        } else if (moveInput < 0) {
-            transform.eulerAngles = new Vector3(0, 180, 0);
         }
 
         // Player animations :

@@ -48,7 +48,7 @@ TextureImporter:
       213: -3342319705003299211
     second: SlimeJump_14
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -69,6 +69,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -107,6 +108,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -158,6 +160,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -496,6 +510,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      SlimeJump_0: 7947501097736902746
+      SlimeJump_1: -6168118176287722935
+      SlimeJump_8: -7299356185989060789
+      SlimeJump_13: 7238107129111067798
+      SlimeJump_2: 7316173638452284389
+      SlimeJump_5: 4271780655302208723
+      SlimeJump_4: 2488514948864383014
+      SlimeJump_10: 2121689564443424230
+      SlimeJump_11: -565547280096343059
+      SlimeJump_7: 4760488116922395201
+      SlimeJump_9: 5137619143157061654
+      SlimeJump_14: -3342319705003299211
+      SlimeJump_6: 6116754092713097149
+      SlimeJump_3: 1281434879442400858
+      SlimeJump_12: -6014007998700229369
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

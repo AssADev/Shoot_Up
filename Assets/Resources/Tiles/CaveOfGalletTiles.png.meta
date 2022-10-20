@@ -282,7 +282,7 @@ TextureImporter:
       213: -4497777176249933049
     second: CaveOfGalletTiles_92
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -303,6 +303,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -341,6 +342,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -392,6 +394,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2368,6 +2382,100 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CaveOfGalletTiles_77: 1831463550762794040
+      CaveOfGalletTiles_68: 6427777095767936128
+      CaveOfGalletTiles_84: -5101047077276852082
+      CaveOfGalletTiles_33: 333448885332496462
+      CaveOfGalletTiles_65: 5777432132940928641
+      CaveOfGalletTiles_44: 3350996066889556600
+      CaveOfGalletTiles_76: 6314084421363753172
+      CaveOfGalletTiles_25: 3719588674838712682
+      CaveOfGalletTiles_8: 3577629072073613033
+      CaveOfGalletTiles_32: -1414610899272362215
+      CaveOfGalletTiles_52: -5873804552503545495
+      CaveOfGalletTiles_7: 8312311152108356208
+      CaveOfGalletTiles_37: -6868730171757043694
+      CaveOfGalletTiles_82: -2774052933825184265
+      CaveOfGalletTiles_27: 8439450688811753168
+      CaveOfGalletTiles_9: -3133401873522445060
+      CaveOfGalletTiles_40: 7161725170930279699
+      CaveOfGalletTiles_21: -4983249671030301446
+      CaveOfGalletTiles_49: 6164762216067750325
+      CaveOfGalletTiles_19: -1295607818717881243
+      CaveOfGalletTiles_14: -277449597593462231
+      CaveOfGalletTiles_6: 7316836083839057674
+      CaveOfGalletTiles_73: -2606164875412851645
+      CaveOfGalletTiles_92: -4497777176249933049
+      CaveOfGalletTiles_23: 2880571465495543786
+      CaveOfGalletTiles_47: 5366591352685212371
+      CaveOfGalletTiles_80: -30084983435934656
+      CaveOfGalletTiles_89: 740603343473616367
+      CaveOfGalletTiles_72: 514781822542590804
+      CaveOfGalletTiles_1: 6972665301279408131
+      CaveOfGalletTiles_53: -4379307444504503502
+      CaveOfGalletTiles_61: 2637061512288204883
+      CaveOfGalletTiles_91: 6358656220865584026
+      CaveOfGalletTiles_30: 2573981881040617223
+      CaveOfGalletTiles_79: -6714239912206333330
+      CaveOfGalletTiles_64: 5499331279407271636
+      CaveOfGalletTiles_74: -3710555203036138278
+      CaveOfGalletTiles_56: 6796490104048677675
+      CaveOfGalletTiles_0: 2544644589498428611
+      CaveOfGalletTiles_34: -2690525306954853557
+      CaveOfGalletTiles_5: -8230500437848792002
+      CaveOfGalletTiles_10: -3521297406564324346
+      CaveOfGalletTiles_71: -3556262425311592117
+      CaveOfGalletTiles_3: -2413749938909760230
+      CaveOfGalletTiles_55: 4808774918828060603
+      CaveOfGalletTiles_63: -9000496529384279811
+      CaveOfGalletTiles_70: 1480960847292094511
+      CaveOfGalletTiles_60: 6268827957077866848
+      CaveOfGalletTiles_46: 2282310282742785851
+      CaveOfGalletTiles_48: -4500598926015143852
+      CaveOfGalletTiles_28: 4031347643540540525
+      CaveOfGalletTiles_18: 2933821483731493321
+      CaveOfGalletTiles_87: 158805942480003281
+      CaveOfGalletTiles_38: 2630316810446692206
+      CaveOfGalletTiles_4: 7720063451342354243
+      CaveOfGalletTiles_75: -6786108312434459539
+      CaveOfGalletTiles_11: 7557865172614683410
+      CaveOfGalletTiles_88: -7015396939792463466
+      CaveOfGalletTiles_54: 3553549634516021900
+      CaveOfGalletTiles_86: 3970991999337023677
+      CaveOfGalletTiles_69: -3895553163523289077
+      CaveOfGalletTiles_90: 8057044797766914361
+      CaveOfGalletTiles_36: -8817790762095820001
+      CaveOfGalletTiles_41: -7625570476060981228
+      CaveOfGalletTiles_45: -6989298507137941600
+      CaveOfGalletTiles_43: 8047302429768393655
+      CaveOfGalletTiles_81: -7693602013995950045
+      CaveOfGalletTiles_50: 1054462579246182773
+      CaveOfGalletTiles_83: 8639423708301760118
+      CaveOfGalletTiles_13: 797302749321412578
+      CaveOfGalletTiles_2: -5611402943714958811
+      CaveOfGalletTiles_16: 1605845886770188935
+      CaveOfGalletTiles_15: -787281712288970836
+      CaveOfGalletTiles_12: 6618621367105124024
+      CaveOfGalletTiles_22: -1087970488088664940
+      CaveOfGalletTiles_29: 6439685517902358285
+      CaveOfGalletTiles_39: -6271227063998052392
+      CaveOfGalletTiles_26: -6931587400447288161
+      CaveOfGalletTiles_58: -5587217175116518450
+      CaveOfGalletTiles_85: 6920372429502771257
+      CaveOfGalletTiles_59: 3855648045029057280
+      CaveOfGalletTiles_62: -4263702622935429498
+      CaveOfGalletTiles_31: 8913725680055467614
+      CaveOfGalletTiles_78: 8111678056595865947
+      CaveOfGalletTiles_35: -90330564423724373
+      CaveOfGalletTiles_42: -2972678850559960399
+      CaveOfGalletTiles_66: -3031123772708479917
+      CaveOfGalletTiles_67: -7765615089968795149
+      CaveOfGalletTiles_20: 2637728036739312587
+      CaveOfGalletTiles_24: 5574583034260490765
+      CaveOfGalletTiles_51: -4861009614045114992
+      CaveOfGalletTiles_17: -7107026147434387238
+      CaveOfGalletTiles_57: 2956489970326097203
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
